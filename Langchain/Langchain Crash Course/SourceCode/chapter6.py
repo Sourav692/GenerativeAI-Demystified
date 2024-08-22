@@ -17,5 +17,5 @@ title_template = PromptTemplate(
 llm = OpenAI(temperature=0.9)
 
 if topic:
-    response = llm.invoke(title_template.format(topic=topic,language='english'))
+    response = llm(title_template.format(topic=topic,language='english'))
     st.write(response)

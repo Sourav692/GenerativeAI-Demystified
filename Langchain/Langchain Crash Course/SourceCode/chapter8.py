@@ -24,8 +24,8 @@ article_template = PromptTemplate(
 llm = OpenAI(temperature=0.9)
 title_chain = LLMChain(llm=llm, prompt=title_template, verbose=True)
 
-llm2 = ChatOpenAI(model_name='gpt-3.5-turbo', temperature=0.9)
-article_chain = LLMChain(llm=llm, prompt=article_template, verbose=True)
+llm2 = ChatOpenAI(model_name='gpt-4', temperature=0.9)
+article_chain = LLMChain(llm=llm2, prompt=article_template, verbose=True)
 
 overall_chain = SimpleSequentialChain(chains=[title_chain, article_chain], verbose=True)
 
