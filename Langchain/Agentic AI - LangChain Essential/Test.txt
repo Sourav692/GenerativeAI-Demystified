@@ -1,0 +1,2 @@
+This is folder for Langchain Essential for Agentic AI
+https://courses.analyticsvidhya.com/courses/take/introduction-to-langchain-for-agentic-ai/texts/60526903-reading-resources
