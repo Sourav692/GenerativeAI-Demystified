@@ -1,2 +1,2 @@
 # GenerativeAI-Demystified
-Repository on all things on Generative AI.
+Repository on all things on Generative AI
